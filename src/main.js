@@ -4,6 +4,7 @@ import App from './App.vue'
 import Home from './components/Home.vue'
 import Chat from './components/Chat.vue'
 import About from './components/About.vue'
+import '../styles.css';
 
 const router = createRouter({
   history: createWebHistory(),

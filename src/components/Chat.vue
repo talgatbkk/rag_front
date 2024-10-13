@@ -1,6 +1,6 @@
 <template>
-  <div class="chat-container">
-    <h1 class="chat-title">Chat Application</h1>
+  <div class="container">
+    <h1 class="text-center text-primary">Chat Application</h1>
     <div class="chat-messages" ref="chatMessages">
       <div v-for="(message, index) in messages" :key="index" :class="['message', message.isUser ? 'user-message' : 'bot-message']">
         {{ message.text }}

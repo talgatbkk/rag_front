@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/" class="nav-link">salyq.com</router-link>
-      <router-link to="/chat" class="nav-link">Консультация</router-link>
-      <router-link to="/about" class="nav-link">Про нас</router-link>
-    </nav>
+    <Navbar />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar.vue';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Navbar
+  }
 }
 </script>
 
@@ -27,24 +28,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-nav {
-  background-color: #007bff;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
 }
 
 .router-view-container {
