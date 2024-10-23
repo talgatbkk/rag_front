@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "chat": "Chat",
+    "taxDeclaration": "Tax Declaration",
+    "appName": "salyq.com",
+    "menu": {
+      "open": "Open main menu",
+      "close": "Close main menu"
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Welcome to",
+      "companyName": "salyq.com",
+      "subtitle": "Your trusted partner for simplified tax declarations and financial management",
+      "getStarted": "Get Started",
+      "tryChat": "Try Chat Assistant"
+    },
+    "features": {
+      "taxDeclaration": {
+        "title": "Easy Tax Declaration",
+        "description": "Simplify your tax declaration process with our intuitive interface and step-by-step guidance."
+      },
+      "chatSupport": {
+        "title": "24/7 Chat Support",
+        "description": "Get instant assistance with our AI-powered chat support system, available any time you need help."
+      },
+      "security": {
+        "title": "Secure & Reliable",
+        "description": "Your data is protected with enterprise-grade security measures and regular backups."
+      }
+    }
+  },
+  "about": {
+    "header": "About Salyq",
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Salyq, we strive to simplify the complex world of tax declarations and financial management. Our mission is to provide accessible, user-friendly tools that empower individuals and businesses to manage their finances with confidence and ease."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Salyq?",
+      "points": [
+        "Expert assistance in tax declarations",
+        "24/7 AI-powered support",
+        "Secure and compliant platform"
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear communication and honest service"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Your data security is our priority"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Have questions? We're here to help you on your tax journey."
+    }
+  },
+  "chat": {
+    "header": "Chat Application",
+    "placeholder": "Type your message here...",
+    "send": "Send",
+    "error": {
+      "network": "Unable to connect to server. Please check if the server is running.",
+      "server": "Server error: {error}. Please try again.",
+      "unexpected": "An unexpected error occurred. Please try again later."
+    }
+  },
+  "taxDeclaration": {
+    "title": "Tax Declaration",
+    "chooseBroker": "Choose a broker format:",
+    "selectBroker": "Select a broker",
+    "processing": "Processing...",
+    "proceed": "Proceed",
+    "success": "Successfully selected broker: {broker}"
+  }
+}
